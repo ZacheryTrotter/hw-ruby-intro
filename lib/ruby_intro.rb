@@ -88,6 +88,6 @@ class BookInStock
   attr_accessor :price #getter and setter for price
   
   def price_as_string
-    sprintf("$%2.2f",)
+    sprintf("$%2.2f", @price)
   end
 end
